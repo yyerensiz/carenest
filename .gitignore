@@ -31,6 +31,16 @@ migrate_working_dir/
 .pub/
 /build/
 
+.packages
+build/
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/.symlinks/
+android/.gradle
+android/.idea
+*.iml
+.idea/
+
 # Symbolication related
 app.*.symbols
 
@@ -41,3 +51,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Firebase and Google-specific
+android/app/google-services.json
+
+# Other
+.DS_Store
+.vscode/
+*.log
